@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head> <h1>Add TODO</h1>
+<form>
+    <div> class="input-group">
+    <label for="">TODO</label>
+    </div>
+    <a href="javascript:(function($){var bookmarklet=document.getElementById('DELI_save_link_slidedown');if(bookmarklet){$('#DELI_mist').show();$('#DELI_save_link_slidedown').slideDown('normal');return};if(!window.jQuery){node=document.createElement('SCRIPT');node.type='text/javascript';node.src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';document.body.appendChild(node)}node=document.createElement('SCRIPT');node.type='text/javascript';node.src=window.location.protocol+'//del.icio.us/save/get_bookmarklet_save?url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&notes='+encodeURIComponent(''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text));document.body.appendChild(node)})(window.jQuery);"><img src="https://del.icio.us/img/logo.png" style="display: inline;" height="16" width="16" alt="Delicious"> Save this on Delicious</a>
+
+<input type="text" onclick="displayTODO" value="Add TODO"
+
+</form>
+
+<body>
+    <script src="main.js"></script>
+    
+</body>
+</html>
